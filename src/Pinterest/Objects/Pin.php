@@ -35,10 +35,8 @@ final class Pin implements BaseObject
             'board',
             'created_at',
             'note',
-            'color',
             'counts',
             'media',
-            'attribution',
             'image',
             'metadata',
         );
@@ -99,7 +97,7 @@ final class Pin implements BaseObject
      *
      * @var string
      */
-    public $color = false;
+    public $color;
 
     /**
      * The stats/counts of the Pin (repins,likes, comments).
