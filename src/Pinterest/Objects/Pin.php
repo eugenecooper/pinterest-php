@@ -99,7 +99,7 @@ final class Pin implements BaseObject
      *
      * @var string
      */
-    public $color;
+    public $color = false;
 
     /**
      * The stats/counts of the Pin (repins,likes, comments).
@@ -114,13 +114,6 @@ final class Pin implements BaseObject
      * @var array
      */
     public $media;
-
-    /**
-     * Attribution information.
-     *
-     * @var array
-     */
-    public $attribution;
 
     /**
      * The images that represents the Pin. This is determined by the request.
